@@ -1,6 +1,6 @@
 import { graphql } from "gatsby"
 import React from "react"
-
+import './index.scss'
 class SkillsComponent extends React.Component {
   render() {
     const data = this.props.data.allSkillsCsv.edges
