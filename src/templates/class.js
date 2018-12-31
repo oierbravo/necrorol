@@ -8,9 +8,6 @@ export default function Template({
 }) {
  const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
-//    const postNode = this.props.data.markdownRemark;
- //   const frontmatter = postNode.frontmatter;
- console.log(data)
   return (
     <div className="blog-post-container">
       <div className="blog-post">
