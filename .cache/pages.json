@@ -1,0 +1,22 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-templates-class-js",
+        "jsonName": "class-ariete-ff8",
+        "path": "/class/ariete/"
+    },
+    {
+        "componentChunkName": "component---src-templates-class-js",
+        "jsonName": "class-pesado-fe1",
+        "path": "/class/pesado/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    }
+]

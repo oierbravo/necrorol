@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{134:function(a){a.exports={pages:[{componentChunkName:"component---src-pages-index-js",jsonName:"index",path:"/"}],dataPaths:{"ariete-c03":"346/path---ariete-c-03-e8f-YgV6PMucCfm5UqFLltIiArHr58","class-ariete-0db":"130/path---class-ariete-0-db-7f7-YgV6PMucCfm5UqFLltIiArHr58","class-pesado-80d":"181/path---class-pesado-80-d-ce3-YgV6PMucCfm5UqFLltIiArHr58",index:"173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"}}}}]);
+//# sourceMappingURL=pages-manifest-77ca5678e2625ee6b2be.js.map
