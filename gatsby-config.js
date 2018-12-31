@@ -19,6 +19,12 @@ module.exports = {
             name: `csv`,
           },
         },
-        `gatsby-transformer-csv`
+        `gatsby-transformer-csv`,
+        {
+          resolve: `gatsby-plugin-sass`,
+          options: {
+            includePaths: ["node_modules"]
+          },
+        },
       ]
   }
