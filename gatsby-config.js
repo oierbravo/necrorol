@@ -7,8 +7,8 @@ module.exports = {
         {
           resolve: `gatsby-source-filesystem`,
           options: {
-            path: `${__dirname}/content`,
-            name: "markdown-pages",
+            path: `${__dirname}/content/class`,
+            name: "markdown-classes",
           },
         },
         `gatsby-transformer-remark`,
@@ -16,7 +16,7 @@ module.exports = {
           resolve: `gatsby-source-filesystem`,
           options: {
             path: `${__dirname}/content/skills`,
-            name: `csv`,
+            name: `SkillsCsv`,
           },
         },
         `gatsby-transformer-csv`,
@@ -26,5 +26,8 @@ module.exports = {
             includePaths: ["node_modules"]
           },
         },
-      ]
+      ],
+      mapping: {
+        "MarkdownRemark.frontmatter.skills": `SkillsCsv`,
+      }
   }

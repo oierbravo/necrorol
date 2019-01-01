@@ -9,7 +9,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: `id`,
       value: id,
     })
+    
   }
+  //console.log(node.sourceInstanceName);
 }
 const path = require("path")
 

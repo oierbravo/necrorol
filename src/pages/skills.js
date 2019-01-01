@@ -1,7 +1,7 @@
 import { graphql } from "gatsby"
 import React from "react"
 import './index.scss'
-class SkillsComponent extends React.Component {
+class Skills extends React.Component {
   render() {
     const data = this.props.data.allSkillsCsv.edges
     console.log(data)
@@ -16,8 +16,8 @@ class SkillsComponent extends React.Component {
           </thead>
           <tbody>
             {data.map((row, i) => (
-              <tr key={`${row.node.name} ${i}`}>
-                <td>{row.node.name}</td>
+              <tr key={`${row.node.id} ${i}`}>
+                <td>{row.node.id}</td>
                 <td>{row.node.description}</td>
               </tr>
             ))}
@@ -27,14 +27,14 @@ class SkillsComponent extends React.Component {
     )
   }
 }
-export default SkillsComponent
+export default Skills
 
 export const SkillsQuery = graphql`
   query {
     allSkillsCsv {
       edges {
         node {
-          name
+          id
           description
         }
       }

@@ -2,7 +2,6 @@ import { graphql } from "gatsby"
 import React from "react"
 import './index.scss'
 import { Link } from "gatsby"
-
 class ClassesComponent extends React.Component {
   render() {
     const data = this.props.data.allMarkdownRemark.edges

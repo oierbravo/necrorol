@@ -1,9 +1,9 @@
 ---
-id: "ariete"
-title: "Ariete"
+id: ariete
+title: Ariete
 skills:
-    - contraataque
-    - finta
+    - Contraataque
+    - Finta
 ---
 # Ariete
 

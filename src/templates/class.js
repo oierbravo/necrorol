@@ -1,7 +1,7 @@
 
 import React from "react"
 import { graphql } from "gatsby"
-import { Link } from "gatsby";
+import Skill from  '../components/skill'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -15,11 +15,10 @@ export default function Template({
           className="class-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <h3>Skills</h3>
           {/* Skill list. */
             frontmatter.skills.map(skill => (
-          <Link to={"/skills/" + skill} key={skill}>
-            <h1>{skill}</h1>
-          </Link>
+          <Skill id={skill.id} key={skill.id}  description={skill.description}/>
         ))}
         
       </div>
@@ -34,7 +33,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         id
-        skills
+        skills {
+          id
+          description
+        }
       }
     }
   }
