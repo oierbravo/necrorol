@@ -2,7 +2,7 @@ import { graphql } from "gatsby"
 import React from "react"
 import Layout from  '../components/layout'
 import { Link } from "gatsby"
-class ClassesComponent extends React.Component {
+class ClassesPage extends React.Component {
   render() {
     const data = this.props.data.allMarkdownRemark.edges
     console.log(data)
@@ -20,7 +20,7 @@ class ClassesComponent extends React.Component {
     )
   }
 }
-export default ClassesComponent
+export default ClassesPage
 
 export const ClassesQuery = graphql`
   query {

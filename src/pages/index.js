@@ -8,6 +8,8 @@ export default () =>
             <ul>
             <li><Link  to={'/class'}>Clases</Link></li>
             <li><Link  to={'/skills'}>Skills</Link></li>
+            <li><Link  to={'/armory'}>Armory</Link></li>
+            <li><Link  to={'/traits'}>Traits</Link></li>
             </ul>
             </div>
     </Layout>

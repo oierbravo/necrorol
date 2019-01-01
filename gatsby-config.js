@@ -19,6 +19,20 @@ module.exports = {
             name: `SkillsCsv`,
           },
         },
+        {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+            path: `${__dirname}/content/armory`,
+            name: `ArmoryCsv`,
+          },
+        },
+        {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+            path: `${__dirname}/content/traits`,
+            name: `TraitsCsv`,
+          },
+        },
         `gatsby-transformer-csv`,
         {
           resolve: `gatsby-plugin-sass`,

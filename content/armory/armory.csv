@@ -1,0 +1,82 @@
+id,parentId,category,rangeShort,rangeLong,hitShort,hitLong,strength,damage,modifier,roll,credits,special
+Autogun,,Basic,0 - 12,12 - 24,+1,-,3,1,-,4+,20,-
+Boltgun,,Basic,0 - 12,12 - 24,+1,-,4,1,-1,6+,35,-
+Lasgun,,Basic,0 - 12,12 - 24,+1,-,3,1,-1,2+,25,-
+Shotgun,,Basic,,,,,,,,,20,
+Solid Slug,Shotgun,Basic,0 - 4,4 - 18,-,-1,4,1,-,4+,included,-
+Scatter Shot,Shotgun,Basic,0 - 4,4 - 18,+1,-1,3,1,-,4+,included,"1"" blast. Ignores cover"
+Man-Stopper,Shotgun,Basic,0 - 4,4 - 18,-,-,4,1,-2,4+,5,-
+Hot Shot,Shotgun,Basic,0 - 4,4 - 18,-,-1,4,1,-,6+,5,Catch fire
+Bolt,Shotgun,Basic,0 - 4,4 - 24,+1,-,4,1,-1,6+,15,-
+Arbite Combat Shotgun,,Basic,,,,,,,,,,Arbites
+Solid Slug,Arbite Combat Shotgun,Basic,0 - 4,4 - 18,-,-1,4,1,-,4+,included,-
+Scatter Shot,Arbite Combat Shotgun,Basic,0 - 4,4 - 18,+1,-1,3,1,-,4+,included,"1"" blast. Ignores cover"
+Executioner Round,Arbite Combat Shotgun,Basic,0 - 4,5 - 18,-1,+1,4,1,-2,-,included,-
+Exterminator,,Basic,Template,Template,-,-,4,1,-2,Auto,15,"Attachment, one shot, catch fire, redemtionist"
+Blunderbuss/Scatter Gun,,Basic,0 - 6,6 - 9,+3,-1,3,1,-,6+,8 or 7,"Ratskins  buy at 8, scavvies buy at 7"
+Handbow,,Basic,0 - 8,8 - 16,-,-1,4,1,Special,6+,5,Ratskin
+Musket,,Basic,0 - 12,12 - 24,-,-1,3,1,-1,6+,6,"Move or fire, ratskin"
+Auto-Cannon,,Heavy,0 - 20,20 - 72,-,-,8,1d6,-3,4+,300,"1 sustain fire dice, move or fire"
+Heavy Bolter,,Heavy,0 - 20,20 - 40,-,-,5,1d4,-2,6+,180,"2 sustain fire dice, move or fire"
+Heavy Plasma,,Heavy,,,,,,,,,285,
+Heavy Plasma Low Energy,Heavy Plasma,Heavy,0 - 20,20 - 40,-,-,7,1d4,-2,4+,included,"1.5"" blast, move or fire"
+Heavy Plasma Max Power,Heavy Plasma,Heavy,0 - 20,20 - 72,-,-,10,1d10,-6,4+,included,"1.5"" blast, move or fire, 1 turn to recharge"
+Heavy Stubber,,Heavy,0 - 20,20 - 40,-,-,4,1,-1,4+,120,"2 sustain fire dice, move or fire"
+Lascannon,,Heavy,0 - 20,20 - 60,-,-,9,2d6,-6,4+,400,Move or fire
+Missile Launcher,,Heavy,,,,,,,,,185,
+Super Krak,Missile Launcher,Heavy,0 - 20,20 - 72,-,-,8,1d10,-6,Auto,115,Move or fire
+Frag,Missile Launcher,Heavy,0 - 20,20 - 72,-,-,4,1,-1,Auto,35,"2"" blast, move or fire"
+Ripper Gun,,Heavy,0 - 4,4 - 8,+2,-1,4,1,-,4+,30,"2 sustain fire dice, Ogryn"
+Flamer,,Special,Template,Template,-,-,4,1,-2,4+,40,"Catch fire, ammo check after every shot"
+Grenade Launcher,,Special,0 - 20 ,20 - 60,-,-1,As grenade,As grenade,As grenade,Auto,130,Move or fire
+Melta Gun,,Special,0 - 6,6 - 12,+1,-,8,1d6,-4,4+,95,-
+Needle Rifle,,Special,0 - 16,6 - 32,+1,-,3,1,-1,6+,230+4d6,Special injury chart
+Plasma Gun,,Special,,,,,,,,,70,
+Plasma Gun Low Energy,Plasma Gun,Special,0 - 6,6 - 24,+1,-,5,1,-1,4+,included,-
+Plasma Gun Max Power,Plasma Gun,Special,0 - 6,6 - 16,+1,-,7,1,-2,4+,included,"1 sustain fire dice, 1 turn to recharge"
+Spear Gun,,Special,0 - 12,12 - 24,-,-1 ,6,1d3,-3,6+,55,"Special reload, impale, pushback, scavvy"
+Scatter Cannon,,Special,0 - 8,8 - 16,+3,+1,4,1,-1,6+,80,"2"" blast, scavvy"
+Discus/Throwing Axe,,Special,0 - 6,6 - 12,-,-,5,1,-1,6+,6,Scavvy
+Orrus Bolt Launchers,,Special,0 - 8,8 - 16,+1,0,4,1,-1,2+,-,"Linked, spyrer"
+Malcadon Web Spinner,,Special,0 - 4,4 - 10,+1,+1,Special,,,2+,-,"Web, climb, spyrer"
+Yeld Laser Guantlets,,Special,0 - 10,10 - 20,+1,-,3,1,-1,2+,-,Spyrer
+Autopistol,,Pistols,0 - 8,8 - 16,+2,-,3,1,-,4+,15,Close combat
+Bolt Pistol,,Pistols,0 - 8,8 - 16,+2,-,4,1,-1,6+,20,Close combat
+Hand Flamer,,Pistols,Template,Template,-,-,4,1,-2,4+,20,"Close combat, catch fire"
+Laspistol,,Pistols,0 - 8,8 - 16,+2,-1,3,1,-,2+,15,Close combat
+Needle Pistol,,Pistols,0 - 8,8 - 16,+2,-,3,1,-1,6+,100+4d6,"Close combat, special injury chart"
+Plasma Pistol,,Pistols,,,,,,,,,25,
+Plasma Pistol Low Energy,Plasma Pistol,Pistols,0 - 6,6 - 18,+2,-1,4,1,-,4+,included,Close combat
+Plasma Pistol Max Power,Plasma Pistol,Pistols,0 - 6,6 - 12,+2,-1,6,1,-1,4+,included,"Close combat, 1 sustain fire dice, 1 turn to recharge"
+Stub Gun,,Pistols,,,,,,,,,10,
+Standard Shot,Stub Gun,Pistols,0 - 8,8 - 16,-,-1,3,1,-,4+,included,Close combat
+Dum-Dum Bullets,Stub Gun,Pistols,0 - 8,8 - 16,-,-1,4,1,-,4+,5,"Close combat, weapon explodes on failed ammo checks"
+Web Pistol,,Pistols,0 - 4,4 - 8,-,-1,-,Web,-,6+,120+4d6,"Close combat, fires web"
+Rocket Flare,,Pistols,0 - 6,6 - 12,-,-,2,1,-,Auto,20,"One shot item, catch fire"
+Sword,,HandToHand,-,-,-,-,As user,1,-,-,10,Parry
+Club/Maul/Bludgeon,,HandToHand,-,-,-,-,As user +1,1,-,-,10,-
+Chainsword,,HandToHand,-,-,-,-,4,1,-1,-,25,Parry
+Chain/Flail,,HandToHand,-,-,-,-,As user +1,1,-,-,10,"Enemy may not parry, fumble penalties are doubled"
+Massive Weapon,,HandToHand,-,-,-,-,As user +2,1,-,-,15,A draw translates to a win for an opponent
+Power Sword,,HandToHand,-,-,-,-,5,1,-3,-,40+3d6,Parry
+Power Axe,,HandToHand,,,,,,,,,35+3d6,
+One Handed,Power Axe,HandToHand,-,-,-,-,6,1,-3,-,included,-
+Two Handed,Power Axe,HandToHand,-,-,-,-,5,1,-2,-,included,-
+Power Fist,,HandToHand,-,-,-,-,8,1,-5,-,85+3d6,-
+Power Maul,,HandToHand,-,-,-,-,5,1,-3,-,35+3d6,Down is treated as out of action and never inflicts serious injuries
+Rock Drill,,HandToHand,-,-,-,-,4,1,-3,-,15,"+1 Str per hit above the first, pit slave"
+Pit Slave Claw,,HandToHand,-,-,-,-,4,1,-1,-,15,"Hurl opponent, pit slave"
+Shears,,HandToHand,-,-,-,-,4,1,-1,-,15,"Behead, pit slave"
+Buzz Saw,,HandToHand,-,-,-,-,5,1,-2,-,25,Pit Slave
+Chain Saw,,HandToHand,-,-,-,-,4,1,-1,-,25,"Parry, pit slave"
+Pit Slave Hammer,,HandToHand,-,-,-,-,4,1,-1,-,20,"Opponent halves WS without an I test, pit slave"
+Eviscerator,,Hand-to Hand,-,-,-,-,As user +3,1d3,-3,-,-,"May not be parried, a draw translates to a win for opponent, redemtionist"
+Jakara Monomolecular Sword,,Hand-to Hand,-,-,-,-,As User +1,1,-1,-,-,"Parry, spyrer"
+Krak,,Grenades,Special,,-,-,6,1d6,-3,Auto,50,-1 to hit when thrown
+Frag,,Grenades,Special,,-,-,3,1,-1,Auto,30,"2"" blast"
+Melta Bomb,,Grenades,Special,,-,-,8,1d6,-4,Auto,40+3d6,Can not be thrown
+Plasma,,Grenades,Special,,-,-,5,1,-2,Auto,30+3d6,"1.5"" blast, transform"
+Photon Flash Flare,,Grenades,Special,,-,-,-,-,-,Auto,20+2d6,"1.5"" blast, blind, destroy sights"
+Gas,,Grenades,Special,,-,-,-,-,-,Auto,40+4d6,"2"" blast that moves, toughness test"
+Smoke,,Grenades,Special,,-,-,-,-,-,Auto,10+3d6,"2"" blast that moves, block line of sight"
+Tox Bomb,,Grenades,Special,,-,-,4,1,-,Auto,,"2"" blast, respirator protects, remains in play, scavvy"
