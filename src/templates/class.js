@@ -2,6 +2,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Skill from  '../components/skill'
+import Layout from  '../components/layout'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -9,20 +10,17 @@ export default function Template({
  const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
   return (
-    <div className="class-container">
-      <div className="class">
-      <div
-          className="class-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+    <Layout>
+      <div className="col-sm table">
+      <h1>{frontmatter.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: html }}/>
         <h3>Skills</h3>
           {/* Skill list. */
             frontmatter.skills.map(skill => (
           <Skill id={skill.id} key={skill.id}  description={skill.description}/>
         ))}
-        
-      </div>
-    </div>
+          </div>
+    </Layout>
   )
 }
 

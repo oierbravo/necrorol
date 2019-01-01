@@ -2,105 +2,36 @@
 id: "pesado"
 title: "Pesado"
 skills:
-    - contraataque
-    - finta
+    - Contraataque
+    - Finta
 ---
+## Experiencia
 
-##### Table of Contents
-
-[Headers](#headers)
-[Emphasis](#emphasis)
-[Lists](#lists)
-[Links](#links)
-[Images](#images)
-[Code and Syntax Highlighting](#code)
-[Tables](#tables)
-[Blockquotes](#blockquotes)
-[Inline HTML](#html)
-[Horizontal Rule](#hr)
-[Line Breaks](#lines)
-[YouTube Videos](#videos)
-
-<a name="headers"/>
-
-## Headers
-
-```no-highlight
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
-------
-```
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
-------
-
-<a name="emphasis"/>
-
-## Emphasis
-
-```no-highlight
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-```
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-
-<a name="lists"/>
-
-## Lists
-
-```no-highlight
-1. First ordered list item
-2. Another item
-  * Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.
-
-   Some text that should be aligned with the above item.
-```
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|Nivel|EXP|Incremento|
+|-|-|-|
+|1 Novato|5|+1 HA|
+|2|10|+1 I / +1 L|
+|3|15|+1 M|
+|4 Pandillero|20|Nueva habilidad|
+|5|30|+1 F / +1 A|
+|6|40|+1 HA|
+|7|50|+1 HP / +1 M|
+|8|60|Nueva habilidad|
+|9|80|+1 H / +1 R|
+|10|100|+1 M|
+|11|120||
+|12|160||
+|13|200||
+|14|240||
+|15|280||
+|16|320||
+|17|360||
+|18 Heroe|400||
+|19|||
+|20|||
+|21|||
+|22|||
+|23|||
+|24|||
+|25|||
+|26|||

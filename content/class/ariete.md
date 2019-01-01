@@ -5,7 +5,7 @@ skills:
     - Contraataque
     - Finta
 ---
-# Ariete
+## Experiencia
 
 |Nivel|EXP|Incremento|
 |-|-|-|

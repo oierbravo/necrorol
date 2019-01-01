@@ -1,29 +1,21 @@
 import { graphql } from "gatsby"
 import React from "react"
-import './index.scss'
+import Layout from  '../components/layout'
 class Skills extends React.Component {
   render() {
     const data = this.props.data.allSkillsCsv.edges
     console.log(data)
     return (
-      <div>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
+      <Layout>
+        <ul>
             {data.map((row, i) => (
-              <tr key={`${row.node.id} ${i}`}>
-                <td>{row.node.id}</td>
-                <td>{row.node.description}</td>
-              </tr>
+              <li key={`${row.node.id} ${i}`}>
+                <span><strong>{row.node.id}:</strong></span>
+                {row.node.description}
+              </li>
             ))}
-          </tbody>
-        </table>
-      </div>
+          </ul>
+      </Layout>
     )
   }
 }
