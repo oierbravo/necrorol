@@ -1,8 +1,14 @@
 import React from "react"
 import Layout from  '../components/layout'
+import { Link } from "gatsby"
 export default () => 
     <Layout>
-         <h1>Hello world!</h1>
-
+        <div className="col-sm">
+         <h1>Necrorol</h1>
+            <ul>
+            <li><Link  to={'/class'}>Clases</Link></li>
+            <li><Link  to={'/skills'}>Skills</Link></li>
+            </ul>
+            </div>
     </Layout>
 

@@ -8,11 +8,14 @@ class ClassesComponent extends React.Component {
     console.log(data)
     return (
       <Layout>
+        <div className="col-sm">
+        <Link  to={'/'}>Volver</Link>
         <ul>
           {data.map((row, i) => (
                 <li key={i}><Link  to={'/class/' + row.node.frontmatter.id}>{row.node.frontmatter.title}</Link></li>
               ))}
           </ul>
+          </div>
           </Layout>
     )
   }

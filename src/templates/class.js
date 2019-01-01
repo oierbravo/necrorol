@@ -11,6 +11,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
+              <a href="/class">Volver</a>
       <div className="col-sm table">
       <h1>{frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: html }}/>
